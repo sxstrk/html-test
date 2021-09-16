@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Montserrat, Roboto, sans-serif;
+	background: linear-gradient(to bottom, #FFC6D9, #916C80);
+}
+h1 {
+	text-align: center;
+}
+.link-nav {
+	padding: 10px;
+	margin: 5px;
+	height: auto;
+	font-weight: 900;
+	text-align: center;
+	color: #48284A;
+	background: #FFF7AE;
+	border: 1px solid #48284A;
+	border-radius: 25px;
+	display: block;
+}
+.link-nav:link, .link-nav:visited  {
+	text-decoration: none;
+	
+}
+.link-nav:hover, .link-nav:active {
+	text-decoration: none;
+	color: #FFC300;
+	background: #48284A;
