@@ -1,102 +1,31 @@
-* {
-	box-sizing: border-box;
-}
-body {
-	font-family: Montserrat, Roboto, sans-serif;
-	background: repeating-linear-gradient(to bottom, #FFC300, #DAF7A6);
-}
-.link-nav {
-	padding: 10px;
-	margin: 5px;
-	height: auto;
-	font-weight: 900;
-	text-align: center;
-	color: #581845;
-	background: #FFC300;
-	border: 1px solid #581845;
-	border-radius: 25px;
-	display: block;
-}
-.link-nav:link, .link-nav:visited  {
-	text-decoration: none;
-	
-}
-.link-nav:hover, .link-nav:active {
-	text-decoration: none;
-	color: #FFC300;
-	background: #581845;
-}
 h1 {
-	margin-top: 20px;
-	margin-bottom: 15px;
-	text-align: center;
-	color: #581845;
-	clear: both;
+	float: left;
 }
-h2 {
-	position: sticky;
-	left: 100%;
-	background: #581845;
-	padding: 5px;
-	margin: -10px;
-	margin-bottom: 5px;
-	width: fit-content;
-	/*border-bottom: 1px solid #ffffff;
-	border-left: 1px solid #ffffff;*/
-	border-top-right-radius: 5px;
-}
-.h22 {
-	background: #FF5733;
-}
-.h23 {
-	background: #C70039;
-}
-.card {
+p {
 	padding: 10px;
 	margin: 15px;
-	border: 1px solid #581845;
+	width: auto;
+	height: auto;
+	border: 1px solid black;
 	color: white;
-	background: #900C3F;
-	border-radius: 5px;
+	background: lightcoral;
 
+	
 }
-footer {
-	clear: both;
-	border-top: 1px solid #581845;
+nav p {
+	
+	height: 50px;
+	background: lightsalmon;
 }
-.txtfoot {
-	clear: both;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-weight: 500;
-}
-.sec-foot-1 {
-	position: relative;
-	left: 50px;
-	margin-bottom: 20px;
-}
-.sec-foot-2 {
-	margin-bottom: 20px;
-}
-.logo {
-	margin-right: 5px;
-}
-.link-ft:link, .link-ft:visited  {
-	color: #000000;
-	text-decoration: none;
-}
-.link-ft:hover, .link-ft:active {
-	text-decoration: none;
-	color: #900C3F;
+div > div {
+	
+
 }
 .container-fluid {
 	width: 100%;
-	float: left;
-	margin-bottom: 20px;
 }
 .row {
 	width: 100%;
-
 }
 @media (min-width:  992px) {
 			.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -185,7 +114,7 @@ footer {
 @media (max-width: 767px) {
 			.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
 				float: left;
-
+			
 			}
 			.col-xs-1 {
 				width: 8.33%;
