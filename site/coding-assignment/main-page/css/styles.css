@@ -3,15 +3,15 @@
 }
 body {
 	font-family: Montserrat, Roboto, sans-serif;
-	background: linear-gradient(to bottom, #FFC6D9, #916C80);
+	background: linear-gradient(to bottom, #FFC6D9, #FFE1C6);
 }
 h1 {
 	text-align: center;
+	margin: 50px;
 }
 .link-nav {
 	padding: 10px;
-	margin: 5px;
-	height: auto;
+	margin: 10px;
 	font-weight: 900;
 	text-align: center;
 	color: #48284A;
@@ -28,3 +28,8 @@ h1 {
 	text-decoration: none;
 	color: #FFC300;
 	background: #48284A;
+}
+#block {
+	height: 500px;
+	text-align: center;
+}
