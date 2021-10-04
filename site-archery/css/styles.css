@@ -1,0 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Montserrat, Roboto, sans-serif;
+	background: repeating-linear-gradient(to bottom, #FFC300, #DAF7A6);
+}
