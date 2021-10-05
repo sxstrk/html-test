@@ -2,6 +2,110 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Montserrat, Roboto, sans-serif;
-	background: repeating-linear-gradient(to bottom, #FFC300, #DAF7A6);
+	font-family: Roboto, sans-serif;
+	background: #8963BA;
+}
+.brand {
+	text-decoration: none;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17.7px;
+	line-height: 20px;
+}
+.logo {
+	float: left;
+}
+.asd {
+	margin: 1em;
+}
+.name {
+	margin-top: 1em;
+	margin-left: 6em;
+}
+.icons {
+	text-align: right;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+.icon {
+	margin-left: 1em;
+}
+h1	{
+	position: absolute;
+	width: 1115.24px;
+	height: 384.89px;
+	left: 105.78px;
+	top: 262.22px;
+
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 311.111px;
+	line-height: 365px;
+	color: #FFFFFF;
+}
+.div-1 {
+	position: absolute;
+	width: 64px;
+	height: 20.44px;
+	left: 113.78px;
+	top: 286.22px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.7778px;
+	line-height: 21px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.div-2 {
+	position: absolute;
+	width: 265.78px;
+	height: 52.44px;
+	left: 113.78px;
+	top: 306.67px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44.4444px;
+	line-height: 52px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 32px;
+	position: absolute;
+	width: 202.67px;
+	height: 88.89px;
+	left: 115.56px;
+	top: 648.89px;
+	text-align: center;
+	background: #688B58;
+	border-radius: 4.44444px;
+}
+.butt-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 25px;
+	/* identical to box height */
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0px 8.88889px;
+}
+#img-bg {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: fit-content;
 }
