@@ -6,7 +6,7 @@ body {
 	background: #8963BA;
 	background-image: url('../acher.svg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: top right;
 
 }
@@ -115,15 +115,84 @@ h1	{
 	left: 0px;
 	top: 0px;
 }
-#img-bg {
-	width: 100%;
-	overflow: hidden;
+
+.about {
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	width: 741.33px;
+	height: 373.33px;
+	left: 164px;
+	top: 1026.67px;
+	background: #54428E;
+	border-radius: 7px;
+	border-top: 1em solid rgba(104, 139, 88, 1);
 }
-#round-bg {
+.h2-1 {
+	margin: 3em 6em;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.ab-text {
+	width: 521px;
+	margin: 0 6em;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 21px;
+
+	color: #FFFFFF;
+}
+.events {
+	width: 100%;
+	height: 1111.11px;
+	margin-top: 6em;
+	background: #54428E;
 	position: absolute;
-	right: 0px;
-	top: 62.22px;
+	left: 0px;
+	top: 1400px;
+}
+.h2-2 {
+	margin: 3em 6em;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;	
+}
+.evnt-2 {
+	/*position: absolute;
+	left: 464px;
+	top: 1680px;*/
+	position: relative;
+	left: 10em;
+	width: 351.11px;
+	height: 456.89px;
+	
+	border-top: 1em solid rgba(104, 139, 88, 1);
+	background: #8963BA;
+	box-shadow: 3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25), -3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25);
+}
+h3 {
+	margin: 1em;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.7778px;
+	line-height: 21px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
 }
