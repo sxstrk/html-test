@@ -3,11 +3,14 @@
 }
 body {
 	font-family: 'Roboto', sans-serif;
+	font-style: normal;
 	background: #8963BA;
 	background-image: url('../acher.svg');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: top right;
+	color: #FFFFFF;
+	text-transform: uppercase;
 
 }
 .brand {
@@ -49,13 +52,11 @@ h1	{
 	font-weight: bold;
 	font-size: 311.111px;
 	line-height: 365px;
-	color: #FFFFFF;
+	text-transform: none;
 
 }
 .div-1 {
 	position: absolute;
-/*	width: 64px;
-	height: 20.44px;*/
 	left: 113.78px;
 	top: 286.22px;
 
@@ -63,16 +64,10 @@ h1	{
 	font-weight: bold;
 	font-size: 17.7778px;
 	line-height: 21px;
-	/* identical to box height */
-
-	text-transform: uppercase;
-
-	color: #FFFFFF;
+	text-transform: none;
 }
 .div-2 {
 	position: absolute;
-	/*width: 265.78px;
-	height: 52.44px;*/
 	left: 113.78px;
 	top: 306.67px;
 
@@ -80,23 +75,20 @@ h1	{
 	font-weight: bold;
 	font-size: 44.4444px;
 	line-height: 52px;
-	text-transform: uppercase;
-
-	color: #FFFFFF;
+	text-transform: none;
 }
 .button {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	padding: 32px;
 	position: absolute;
-	width: 202.67px;
-	height: 88.89px;
+	width: 200px;
+	height: 85px;
 	left: 115.56px;
 	top: 648.89px;
 	text-align: center;
 	background: #688B58;
-	border-radius: 4.44444px;
+	border-radius: 0.5em;
 }
 .butt-text {
 	font-family: Roboto;
@@ -105,8 +97,6 @@ h1	{
 	font-size: 17px;
 	line-height: 25px;
 	/* identical to box height */
-	text-transform: uppercase;
-	color: #FFFFFF;
 	margin: 0px 8.88889px;
 }
 .bg-1 {
@@ -133,10 +123,6 @@ h1	{
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 21px;
-
-	text-transform: uppercase;
-
-	color: #FFFFFF;
 }
 .ab-text {
 	width: 521px;
@@ -147,9 +133,9 @@ h1	{
 	font-weight: normal;
 	font-size: 17px;
 	line-height: 21px;
-
-	color: #FFFFFF;
+	text-transform: none;
 }
+
 .events {
 	width: 100%;
 	height: 1111.11px;
@@ -159,6 +145,10 @@ h1	{
 	left: 0px;
 	top: 1400px;
 }
+.evnt-all {
+	/*position: absolute;*/
+	margin: auto;
+}
 .h2-2 {
 	margin: 3em 6em;
 	text-align: center;
@@ -166,23 +156,40 @@ h1	{
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 21px;
-
-	text-transform: uppercase;
-
-	color: #FFFFFF;	
 }
-.evnt-2 {
-	/*position: absolute;
-	left: 464px;
-	top: 1680px;*/
+.evnt-1 {
 	position: relative;
-	left: 10em;
-	width: 351.11px;
-	height: 456.89px;
-	
+	width: 350px;
+	height: 400px;
+	float: left;
+	margin-top: 28.5px;
+	margin-right: 0;
 	border-top: 1em solid rgba(104, 139, 88, 1);
 	background: #8963BA;
-	box-shadow: 3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25), -3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25);
+
+}
+.evnt-2 {
+	position: relative;
+	width: 350px;
+	height: 457px;
+	margin-right: 0;
+	float: left;
+	border: 0.1em solid rgba(84, 66, 142, 1);
+;
+	border-top: 1em solid rgba(104, 139, 88, 1);
+	background: #8963BA;
+	/*box-shadow: 3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25), -3.55556px 0px 3.55556px rgba(0, 0, 0, 0.25);*/
+}
+.evnt-3 {
+	position: relative;
+	width: 350px;
+	height: 400px;
+	margin-top: 28.5px;
+	margin-right: 0;
+	float: left;
+	border-top: 1em solid rgba(104, 139, 88, 1);
+	background: #8963BA;
+
 }
 h3 {
 	margin: 1em;
@@ -192,7 +199,28 @@ h3 {
 	line-height: 21px;
 
 	text-align: center;
-	text-transform: uppercase;
-
-	color: #FFFFFF;
+}
+.evnt-txt {
+	position: absolute;
+	width: 210px;
+	left: 30px;
+	top: 100px;
+	font-weight: bold;
+	font-size: 21.3333px;
+	line-height: 25px;
+}
+.evnt-2-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.animal {
+	position: absolute;
+	left: 30px;
+	top: calc(100% - 200px/2);
+	background: #54428E;
+	width: 200px;
+	height: 60px;
+	padding: 17px;
+	font-weight: bold;
 }
